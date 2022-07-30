@@ -26,5 +26,34 @@ class MainActivity : AppCompatActivity() {
 
         println(saludo)
 
+        var a: Int = 5 + 5
+        val b:Int = 10 - 2
+        val c:Int = 3 * 4
+        val d:Int = 10 / 5
+        val e:Int = 10 % 3
+        val f:Int = 10 / 6
+
+        var aPreIncremento: Int = 5
+        var bPreDecremento: Int = 5
+        var cPostIncremento: Int = 5
+        var dPostDecremento: Int = 5
+
+        println(aPreIncremento)
+        println(++aPreIncremento)
+        println(aPreIncremento)
+
+
+        println(bPreDecremento)
+        println(--bPreDecremento)
+        println(bPreDecremento)
+
+        println(cPostIncremento)
+        println(cPostIncremento++)
+        println(cPostIncremento)
+
+        println(dPostDecremento)
+        println(dPostDecremento--)
+        println(dPostDecremento)
+
     }
 }
